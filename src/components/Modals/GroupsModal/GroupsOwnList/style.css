@@ -1,0 +1,24 @@
+
+
+.groupsStyle {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.groupsStyle td, .groupsStyle th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.groupsStyle tr:nth-child(even){background-color: #f2f2f2;}
+
+.groupsStyle tr:hover {background-color: #ddd;}
+
+.groupsStyle th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #246c6e;
+    color: white;
+}

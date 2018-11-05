@@ -1,0 +1,24 @@
+
+
+.usersStyle {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+.usersStyle td, .usersStyle th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.usersStyle tr:nth-child(even){background-color: #f2f2f2;}
+
+.usersStyle tr:hover {background-color: #ddd;}
+
+.usersStyle th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #246c6e;
+    color: white;
+}
